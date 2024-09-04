@@ -21,7 +21,7 @@ abstract class AuditingEntity(
 
     @LastModifiedDate
     @Column(name = "update_at")
-    lateinit var update: LocalDateTime
+    lateinit var updateAt: LocalDateTime
         protected set
 }
 
